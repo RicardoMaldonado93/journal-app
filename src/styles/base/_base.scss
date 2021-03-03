@@ -1,0 +1,45 @@
+html,
+body {
+  background-color: $background;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  padding: 1rem;
+}
+
+h2 {
+  color: $text-color;
+}
+
+hr {
+  color: $text-color;
+}
+
+* {
+  font-family: "Cascadia Code", Consolas, "Courier New", monospace;
+}
+
+main {
+  width: 100%;
+}
+
+.mt-1 {
+  margin-top: 5px;
+}
+
+.mt-5 {
+  margin-top: 25px;
+}
+
+.mb-1 {
+  margin-bottom: 5px;
+}
+.mb-5 {
+  margin-bottom: 25px;
+}
+
+.pointer{
+    cursor: pointer;
+}
