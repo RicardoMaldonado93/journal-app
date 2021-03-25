@@ -1,9 +1,14 @@
 import React from 'react'
+import { Sidebar } from './Sidebar';
 
 export const JournalScreen = () => {
     return (
-        <div>
-            <h2>JournalScreen</h2>
+        <div className="journal__main-content">
+            <Sidebar />
+
+            <main>
+                <h3> Main content </h3>
+            </main>
         </div>
     )
 }
