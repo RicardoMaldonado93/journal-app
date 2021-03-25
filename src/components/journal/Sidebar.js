@@ -5,7 +5,7 @@ import { JournalEntries } from './JournalEntries'
 export const Sidebar = ()=>{
     return (
         <aside className="journal__sidebar">
-            <div className="journal__sidebar-nabvar">
+            <div className="journal__sidebar-nabvar mt-1">
                 <h3 className="mt-1 mb-1">
                     <i className="far fa-moon"></i>
                     <span> Ricardo</span>
