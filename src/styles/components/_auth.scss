@@ -40,7 +40,7 @@
   }
 }
 
-.auth__input:nth-child(2) {
+.auth__input:nth-child(n+2) {
   margin-top: 16px;
 }
 
